@@ -5,7 +5,7 @@ from flask_cors import CORS, cross_origin
 
 weather = Flask(__name__)
 
-owmapikey = 'f5a8c535b5b7f07848e0f4b005a5cd37'
+owmapikey = 'api_key_from_openweather_website'
 owm = pyowm.OWM(owmapikey)
 
 
